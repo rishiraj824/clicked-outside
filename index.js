@@ -1,7 +1,7 @@
-import { h, Component } from 'preact';
+import React from 'react';
 
 export default ({ component: ComponentToMix, props }) => {
-  return class ClickedOutside extends Component {
+  return class ClickedOutside extends React.Component {
     constructor(props) {
       super(props);
     }
@@ -19,6 +19,8 @@ export default ({ component: ComponentToMix, props }) => {
 
     componentWillUnmount() {
       document.removeEventListener('mousedown', this.handleClickOutside);
+      document.removeEventListener('keydown', this.close);
+
     }
 
     handleClickOutside = (e) => {
