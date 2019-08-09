@@ -2,7 +2,9 @@
     "env": {
         "compiler": "bit.envs/bundlers/webpack@4.0.1"
     },
-    "dependencies": {},
+    "packageDependencies": {
+        "preact": "8.2.7"
+    },
     "componentsDefaultDirectory": "components/{name}",
     "packageManager": "npm"
 }
