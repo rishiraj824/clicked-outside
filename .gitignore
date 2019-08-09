@@ -1,0 +1,5 @@
+.bitmap
+node_modules
+yarn.lock
+yarn-error.log
+.bit

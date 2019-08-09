@@ -1,0 +1,29 @@
+{
+  "name": "clicked-outside-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rishiraj824/clicked-outside.git"
+  },
+  "keywords": [
+    "preact",
+    "focus",
+    "blur"
+  ],
+  "author": "Rishi Raj <rishiraj824@gmail.com> (http://rishiraj.co)",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/rishiraj824/clicked-outside/issues"
+  },
+  "homepage": "https://github.com/rishiraj824/clicked-outside#readme",
+  "dependencies": {
+    "@bit/rishiraj824.react-components.clicked-outside": "^0.0.1",
+    "preact": "^8.5.1",
+    "react": "^16.9.0"
+  }
+}

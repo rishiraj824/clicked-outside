@@ -1,0 +1,19 @@
+{
+  "name": "clicked-outside",
+  "version": "1.0.0",
+  "description": "Component Mixer for detecting any outside click and hiding it",
+  "main": "clicked-outisde.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react",
+    "component",
+    "mixin"
+  ],
+  "author": "Rishi Raj <rishiraj824@gmail.com> (http://rishiraj.co)",
+  "license": "ISC",
+  "dependencies": {
+    "preact": "^8.5.1"
+  }
+}
