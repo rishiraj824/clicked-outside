@@ -30,7 +30,7 @@ export default ({ component: ComponentToMix, props }) => {
     };
 
     render() {
-      return (<div ref={node => this.wrapperRef = node}>
+      return (<div className={props.containerClassname || ''} ref={node => this.wrapperRef = node}>
           <ComponentToMix {...props} {...this.props}/>
         </div>
       );
